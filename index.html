@@ -1,80 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Petaum Grooming Dryer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="description" content="Peggy Chen's pet and lifestyle photography portfolio, capturing the quiet, close moments shared by people and their dogs.">
+  <title>Peggy Chen — Pet &amp; Lifestyle Photography</title>
   <link rel="stylesheet" href="photo.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="page-wrap">
-    <header class="site-header">
-      <p class="eyebrow">Pet Care &amp; Photo Journal</p>
-      <h1>Petaum Grooming Dryer</h1>
-      <p class="lead">A pet-specific grooming dryer that makes post-bath care faster and more comfortable for your furry friend.</p>
-      <div class="author-card">
-        <p class="author-role">Photographer &amp; Web Designer</p>
-        <p>Hi, I am Peggy Chen. I specialize in photography and visual web design. See my full portfolio at the link below.</p>
-        <a href="https://peggychenpw.github.io/Peggy_Portfolio/#/" target="_blank" rel="noreferrer noopener">View Peggy's Portfolio</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Peggy Chen, back to top">PEGGY CHEN<span>PHOTOGRAPHY</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a class="nav-contact" href="https://peggychenpw.github.io/Peggy_Portfolio/#/" target="_blank" rel="noopener noreferrer">More work <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> PETS × LIFESTYLE · DOCUMENTARY</p>
+        <h1 id="hero-title">Every bond<br><em>deserves to be remembered.</em></h1>
+        <p class="hero-intro">Natural light and honest connection. A collection of the unposed, tender moments shared by pets and the people who love them.</p>
+        <a class="text-link" href="#work">Explore the work <span aria-hidden="true">↓</span></a>
       </div>
-    </header>
+      <figure class="hero-image">
+        <img src="asset/DSC_0018.jpg" alt="A woman sitting beside a relaxed black-and-white dog at home" fetchpriority="high" decoding="async">
+        <figcaption><span>Life, documented</span><span>01 / 09</span></figcaption>
+      </figure>
+      <span class="hero-index" aria-hidden="true">P / 01</span>
+    </section>
 
-    <main>
-      <section class="product-intro">
-        <div class="intro-copy">
-          <h2>What is Petaum?</h2>
-          <p>The Petaum Grooming Dryer is a combination of a dryer and a brush specially designed for pets. It dries fur gently, removes loose hair, and massages your pet while grooming.</p>
-          <ul>
-            <li>Drying, brushing, and massaging in one tool</li>
-            <li>Reduces tangles and loose hair during grooming</li>
-            <li>Ideal for small and medium-sized cats and dogs</li>
-          </ul>
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECTED WORK · 2019</p>
+          <h2 id="work-title">A life together</h2>
         </div>
-        <div class="intro-image">
-          <img src="./asset/DSC_0184.jpg" alt="Petaum Grooming Dryer and pet grooming setup">
-        </div>
-      </section>
+        <p class="section-note">A glimpse into a day of pet grooming.<br>More interested in each other than the camera.</p>
+      </div>
 
-      <section class="feature-section">
-        <div class="section-header">
-          <h2>Designed for Calm Care</h2>
-          <p>Carefully crafted to make grooming a more pleasant experience for pets and owners alike.</p>
-        </div>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <h3>2-in-1 Grooming</h3>
-            <p>Dry, brush and massage in one easy motion for a faster, calmer routine.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Comfort-first Design</h3>
-            <p>Soft airflow and soothing brush bristles keep grooming gentle and stress-free.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Ready for Any Home</h3>
-            <p>Compact, lightweight, and perfect for cats as well as small to medium dogs.</p>
-          </article>
-        </div>
-      </section>
+      <div class="gallery" aria-label="Pet and lifestyle photography">
+        <button class="photo-card photo-card--wide" type="button" data-photo="asset/DSC_0018.jpg" data-alt="A woman sitting beside a relaxed black-and-white dog at home" data-caption="Life, documented · A quiet moment at home">
+          <img src="asset/DSC_0018.jpg" alt="A woman sitting beside a relaxed black-and-white dog at home" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>Life, documented</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--wide" type="button" data-photo="asset/DSC_0047.jpg" data-alt="A person holding a white Shiba Inu close as they nuzzle" data-caption="Close company · Shiba Inu and family">
+          <img src="asset/DSC_0047.jpg" alt="A person holding a white Shiba Inu close as they nuzzle" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>Close company</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--portrait" type="button" data-photo="asset/DSC_0059.jpg" data-alt="A woman holding a red Shiba Inu in warm window light" data-caption="An afternoon together · Shiba Inu and family">
+          <img src="asset/DSC_0059.jpg" alt="A woman holding a red Shiba Inu in warm window light" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>An afternoon together</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--portrait" type="button" data-photo="asset/DSC_0061.jpg" data-alt="A woman looking down at the red Shiba Inu in her arms" data-caption="A tender gaze · Shiba Inu and family">
+          <img src="asset/DSC_0061.jpg" alt="A woman looking down at the red Shiba Inu in her arms" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>A tender gaze</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--portrait" type="button" data-photo="asset/DSC_0182.jpg" data-alt="A person holding a grooming dryer as several red Shiba Inus gather around" data-caption="Grooming day · A moment together">
+          <img src="asset/DSC_0182.jpg" alt="A person holding a grooming dryer as several red Shiba Inus gather around" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>Grooming day</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--portrait" type="button" data-photo="asset/DSC_0183.jpg" data-alt="Two women sharing a moment with several Shiba Inus beside a sofa" data-caption="A lively afternoon · Together at home">
+          <img src="asset/DSC_0183.jpg" alt="Two women sharing a moment with several Shiba Inus beside a sofa" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>A lively afternoon</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--portrait" type="button" data-photo="asset/DSC_0184.jpg" data-alt="Two women with grooming tools surrounded by several Shiba Inus" data-caption="At ease together · Grooming day">
+          <img src="asset/DSC_0184.jpg" alt="Two women with grooming tools surrounded by several Shiba Inus" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>At ease together</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--portrait" type="button" data-photo="asset/DSC_0281.jpg" data-alt="A black-and-white dog looking straight into the camera, with a grooming brush above its head" data-caption="In front of the lens · Portrait">
+          <img src="asset/DSC_0281.jpg" alt="A black-and-white dog looking straight into the camera, with a grooming brush above its head" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>In front of the lens</span><span>↗</span></span>
+        </button>
+        <button class="photo-card photo-card--wide" type="button" data-photo="asset/DSC_0291.jpg" data-alt="A red Shiba Inu sitting calmly behind a grooming dryer held in the foreground" data-caption="A curious moment · Shiba Inu and grooming tool">
+          <img src="asset/DSC_0291.jpg" alt="A red Shiba Inu sitting calmly behind a grooming dryer held in the foreground" loading="lazy" decoding="async">
+          <span class="photo-caption"><span>A curious moment</span><span>↗</span></span>
+        </button>
+      </div>
+    </section>
 
-      <section class="gallery-section">
-        <div class="section-header">
-          <h2>Pet Photo Gallery</h2>
-          <p>Enjoy moments of calm grooming and happy pets captured with Petaum.</p>
-        </div>
-        <div class="gallery-grid">
-          <figure><img src="./asset/DSC_0182.jpg" alt="Pet portrait 1"></figure>
-          <figure><img src="./asset/DSC_0183.jpg" alt="Pet portrait 2"></figure>
-          <figure><img src="./asset/DSC_0281.jpg" alt="Pet portrait 3"></figure>
-          <figure><img src="./asset/DSC_0291.jpg" alt="Pet portrait 4"></figure>
-        </div>
-      </section>
-    </main>
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-mark" aria-hidden="true">P.</div>
+      <div class="about-copy">
+        <p class="eyebrow">BEHIND THE LENS</p>
+        <h2 id="about-title">Hello, I'm Peggy.</h2>
+        <p>Photographer and web designer. I love noticing the way light falls, and the trust and tenderness that emerge when people and animals are simply together.</p>
+        <a class="text-link" href="https://peggychenpw.github.io/Peggy_Portfolio/#/" target="_blank" rel="noopener noreferrer">View the full portfolio <span aria-hidden="true">↗</span></a>
+      </div>
+      <aside class="product-note" aria-labelledby="product-title">
+        <p class="eyebrow">FEATURED PRODUCT</p>
+        <h3 id="product-title">Petaum Pet Grooming Dryer</h3>
+        <p>A 2-in-1 tool that combines drying and brushing to help dry your pet’s coat and remove loose hair during grooming.</p>
+      </aside>
+    </section>
+  </main>
 
-    <footer class="site-footer">
-      <p>Photo by Peggy Chen • Pet grooming and lifestyle photography</p>
-    </footer>
-  </div>
+  <footer class="site-footer">
+    <a class="wordmark" href="#top">PEGGY CHEN<span>PHOTOGRAPHY</span></a>
+    <p>© 2020 Peggy Chen · Remembering every moment with care</p>
+    <a class="back-top" href="#top">Back to top ↑</a>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Photo viewer">
+    <div class="lightbox-toolbar">
+      <p class="lightbox-caption" aria-live="polite"></p>
+      <button class="lightbox-close" type="button" aria-label="Close photo viewer">Close <span aria-hidden="true">×</span></button>
+    </div>
+    <div class="lightbox-stage">
+      <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous photo">←</button>
+      <img class="lightbox-image" src="" alt="">
+      <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next photo">→</button>
+    </div>
+    <p class="lightbox-count" aria-live="polite"></p>
+  </dialog>
 </body>
 </html>
-
